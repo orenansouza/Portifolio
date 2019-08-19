@@ -24,6 +24,7 @@ export default function Inicial() {
               <img className="icons" src={github} alt="github" />
             </a>
           </div>
+          <button type="button">Experiências</button>
         </li>
       </ul>
       <footer>
