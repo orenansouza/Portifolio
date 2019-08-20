@@ -8,7 +8,7 @@ export default function Inicial() {
   return (
     <div className="main-container">
       <ul>
-        <li>
+        <li className="main-card">
           <img src={imagem} alt="foto pessoal" />
           <strong>Renan de Souza Lima</strong>
           <p>
@@ -25,6 +25,17 @@ export default function Inicial() {
             </a>
           </div>
           <button type="button">Experiências</button>
+        </li>
+        <li className="experience-card">
+          <strong>Infinit Soluções</strong>
+          <p>Período: 27/07/2018 à 18/08/2019</p>
+          <p className="cargo">Cargo: Suporte técnico I (27/07/2018 à 01/11/2018)</p>
+          <p className="cargo">Cargo: Programador Júnior I (01/11/2018 à 01/04/2019)</p>
+          <p className="cargo">Cargo: Programador Júnior II (01/04/2019 à 18/08/2019)</p>
+          <div className="div-skills">
+            <p className="skill">Skills desenvolvidas</p>
+            <p className="skills">C#, Entity Framework, SQL Server, MySql.</p>
+          </div>
         </li>
       </ul>
       <footer>
