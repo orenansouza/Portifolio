@@ -11,10 +11,9 @@ export default function Inicial() {
         <li className="main-card">
           <img src={imagem} alt="foto pessoal" />
           <strong>Renan de Souza Lima</strong>
-          <p>
-            Email:
-            <a className='email' target="_top"> renansouza.21.109@icloud.com</a>
-          </p>
+          <p>Email: renansouza.21.109@icloud.com</p>
+          <p>Celular:(44) 99847-6626</p>
+          <p>Residente: MARINGÁ - PR</p>
           <p>Full Stack Developer</p>
         </li>
         <li className="experience-card">

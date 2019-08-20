@@ -44,12 +44,6 @@
   font-size: 18px;
   margin-top: 10px;
 }
-.main-container ul .main-card .email {
-  font-size: 16px;
-  line-height: 20px;
-  color: #666;
-  text-decoration: none;
-}
 .main-container ul .main-card:hover {
   transform: rotateY(180deg);
   transition: all 1s;
