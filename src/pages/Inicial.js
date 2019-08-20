@@ -12,10 +12,27 @@ export default function Inicial() {
           <img src={imagem} alt="foto pessoal" />
           <strong>Renan de Souza Lima</strong>
           <p>
-            Email: 
-            <a className='email' href="mailto:renansouza.21.109@icloud.com" target="_top"> renansouza.21.109@icloud.com</a>
+            Email:
+            <a className='email' target="_top"> renansouza.21.109@icloud.com</a>
           </p>
           <p>Full Stack Developer</p>
+        </li>
+        <li className="experience-card">
+          <p className="experience">Experiência</p>
+          <strong>Infinit Soluções</strong>
+          <p>Período: 27/07/2018 à 18/08/2019</p>
+          <p className="office">Cargo: Suporte técnico I (07/2018 à 11/2018)</p>
+          <p className="office">Cargo: Programador Júnior I (11/2018 à 04/2019)</p>
+          <p className="office">Cargo: Programador Júnior II (04/2019 à 08/2019)</p>
+          <div className="div-skills">
+            <p className="skill">Skills desenvolvidas</p>
+            <p className="skills">C#, Entity Framework, SQL Server, MySql.</p>
+          </div>
+          <p className="functions">Principais funções</p>
+          <p className="description-functions">
+            Manutenção do sistema legado como correções de bugs, implementações
+            de novas funcionalidades.
+          </p>
           <div className="buttons">
             <a href="https://www.linkedin.com/in/orenansouza/" target="blank" >
               <img className="icons" src={linkedin} alt="linkedin" />
@@ -23,18 +40,6 @@ export default function Inicial() {
             <a href="https://github.com/orenansouza" target="blank">
               <img className="icons" src={github} alt="github" />
             </a>
-          </div>
-          <button type="button">Experiências</button>
-        </li>
-        <li className="experience-card">
-          <strong>Infinit Soluções</strong>
-          <p>Período: 27/07/2018 à 18/08/2019</p>
-          <p className="cargo">Cargo: Suporte técnico I (27/07/2018 à 01/11/2018)</p>
-          <p className="cargo">Cargo: Programador Júnior I (01/11/2018 à 01/04/2019)</p>
-          <p className="cargo">Cargo: Programador Júnior II (01/04/2019 à 18/08/2019)</p>
-          <div className="div-skills">
-            <p className="skill">Skills desenvolvidas</p>
-            <p className="skills">C#, Entity Framework, SQL Server, MySql.</p>
           </div>
         </li>
       </ul>
