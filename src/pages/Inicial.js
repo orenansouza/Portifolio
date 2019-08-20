@@ -15,7 +15,11 @@ export default function Inicial({ history }) {
         <li className="main-card">
           <img src={imagem} alt="foto pessoal" />
           <strong>Renan de Souza Lima</strong>
-          <p>Email: renansouza.21.109@icloud.com</p>
+          <p>Email:
+            <a className='email'
+              href="mailto:renansouza.21.109@icloud.com">
+              renansouza.21.109@icloud.com</a>
+          </p>
           <p>Celular: (44) 99847-6626</p>
           <p>Residente: MARINGÁ - PR</p>
           <p>Full Stack Developer</p>
@@ -27,7 +31,7 @@ export default function Inicial({ history }) {
               <img className="icons" src={github} alt="github" />
             </a>
           </div>
-            <button type="button" onClick={handleClick}>Experiências</button>
+          <button type="button" onClick={handleClick}>Experiências</button>
         </li>
       </ul>
       <footer>

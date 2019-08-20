@@ -35,14 +35,21 @@
   max-width: 170px;
   margin: 10px auto;
 }
-.main-container ul .main-card strong {
-  font-size: 20px;
-  letter-spacing: 2px;
-  line-height: 1.5;
+.main-container ul .main-card strong:hover {
+  transform: translateY(-5px);
+  transition: all .2s;
+  color:#8a05be;
 }
 .main-container ul li p {
   font-size: 18px;
   margin-top: 10px;
+}
+.main-container ul li p .email {
+  text-decoration: none; 
+  color: #666;
+}
+.main-container ul li p .email:hover {
+  opacity: none;
 }
 .main-container ul .main-card .buttons {
   display: flex;
